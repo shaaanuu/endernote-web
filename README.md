@@ -60,7 +60,12 @@ yarn dev
 http://localhost:3000
 ```
 
+## Contributing
+
+We welcome contributions! Please see our [CONTRIBUTING.md](https://github.com/shaaanuu/Endernote/blob/main/CONTRIBUTING.md) for details on how to get started.
+
 ## License
+
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/shaaanuu/Endernote/blob/main/LICENSE) file for details.
 
 ## Acknowledgements
