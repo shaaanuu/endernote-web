@@ -60,6 +60,9 @@ yarn dev
 http://localhost:3000
 ```
 
+## License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/shaaanuu/Endernote/blob/main/LICENSE) file for details.
+
 ## Acknowledgements
 
 - Inspired by [Obsidian](https://obsidian.md/).
