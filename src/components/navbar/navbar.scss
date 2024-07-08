@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Mont Black";
+  src: url("fonts/Montserrat-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mont Bold";
+  src: url("fonts/Montserrat-Bold.ttf");
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    img {
+      max-height: 40px;
+      margin-right: 10px;
+      border-radius: 5px;
+    }
+
+    .name {
+      font-family: "Mont Black";
+      font-size: 18px;
+      font-weight: bold;
+      color: #902686;
+    }
+  }
+
+  .account-info {
+    font-family: "Mont Bold";
+    display: flex;
+    align-items: center;
+    :hover {
+      color: #902686;
+    }
+
+    .login,
+    .signup {
+      margin-left: 20px;
+      cursor: pointer;
+    }
+  }
+}

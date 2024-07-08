@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Mont Semi Bold";
+  src: url("fonts/Montserrat-SemiBold.ttf");
+}
+
+.definition {
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  margin-inline: 50px;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  dt {
+    font-family: "Mont Semi Bold";
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  dd {
+    margin: 0;
+    margin-bottom: 10px;
+    --tw-text-opacity: 1;
+    color: rgb(163 163 163 / var(--tw-text-opacity));
+  }
+}
