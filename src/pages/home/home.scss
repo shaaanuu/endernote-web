@@ -1,0 +1,101 @@
+// Variables for colors
+$background-color: #2b2b2b;
+$sidebar-background: #1e1e1e;
+$text-color: #ffffff;
+$canvas-background: #3c3c3c;
+$canvas-info-background: rgba(100, 100, 255, 0.2);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+.home-container {
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: $sidebar-background;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 100;
+
+  .close-btn {
+    border: none;
+    background: none;
+    color: $text-color;
+    font-size: 1rem;
+    cursor: pointer;
+    padding-bottom: 10px;
+    width: 23px;
+    padding-bottom: 10px;
+  }
+
+  .sidebar-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: lighten($sidebar-background, 10%);
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: lighten($sidebar-background, 20%);
+    }
+  }
+
+  &.open {
+    transform: translateX(0);
+  }
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 10px;
+  background-color: darken($sidebar-background, 5%);
+  border-bottom: 1px solid lighten($sidebar-background, 10%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .menu-btn {
+    background: none;
+    border: none;
+    color: $text-color;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+}
+
+.canvas {
+  flex: 1;
+  background-color: $canvas-background;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .canvas-info {
+    background-color: $canvas-info-background;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: lighten($canvas-info-background, 60%);
+  }
+}
