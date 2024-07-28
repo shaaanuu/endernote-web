@@ -4,7 +4,7 @@
 }
 
 .definition {
-  border: 1px solid #f8f9fa;
+  border: 1px solid #6c7086;
   border-radius: 4px;
   padding: 20px;
   transition: transform 0.3s ease-in-out;
@@ -18,12 +18,13 @@
     font-family: "Mont Semi Bold";
     font-weight: bold;
     margin-bottom: 5px;
+    color: #bac2de;
   }
 
   dd {
     margin: 0;
     margin-bottom: 10px;
     --tw-text-opacity: 1;
-    color: rgb(163 163 163 / var(--tw-text-opacity));
+    color: #a6adc8;
   }
 }
