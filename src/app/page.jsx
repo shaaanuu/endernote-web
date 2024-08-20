@@ -1,18 +1,19 @@
-import { Definition } from "../../components/definition/definition";
-import Footer from "../../components/footer/footer";
-import "./hero_section.scss";
+import { Navbar } from "@/components/navbar/navbar";
+import { Definition } from "../components/definition/definition";
+import { Footer } from "../components/footer/footer";
 
-export const HeroSec = () => {
+export default function HeroSec() {
   return (
     <>
-      <div className="hero-title-sec">
-        <h1 className="hero-title">Mine Your Ideas.</h1>
-        <p className="hero-para">
+      <Navbar />
+      <div className="heroTitleSec">
+        <h1 className="heroTitle">Mine Your Ideas.</h1>
+        <p className="heroPara">
           Your versatile note-taking companion. Craft, create, and unleash your
           ideas with ease!
         </p>
       </div>
-      <div className="hero-screenshot">
+      <div className="heroScreenshot">
         <img
           src="https://obsidian.md/images/screenshot-1.0-hero-combo.png"
           alt="screenshot"
@@ -41,4 +42,4 @@ export const HeroSec = () => {
       <Footer />
     </>
   );
-};
+}

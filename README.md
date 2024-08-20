@@ -1,10 +1,10 @@
 # EnderNote
 
-Welcome to EnderNote! 🚀 EnderNote is a sleek and powerful note-taking application designed to boost your productivity. Built with React and Vite, EnderNote provides a seamless and efficient note-taking experience.
+Welcome to EnderNote! 🚀 EnderNote is a sleek and powerful note-taking application designed to boost your productivity. Built with React and Next, EnderNote provides a seamless and efficient note-taking experience.
 
 ## Features
 
-    ⚡ Lightning Fast: Powered by Vite, ensuring quick load times and a smooth user experience.
+    ⚡ Lightning Fast: Powered by Next, ensuring quick load times and a smooth user experience.
     📝 Markdown Support: Write notes in Markdown with live preview.
     🔍 Full-Text Search: Quickly find your notes with a robust search functionality.
     📁 Organized Folders: Organize your notes into folders for better management.
@@ -22,7 +22,7 @@ Welcome to EnderNote! 🚀 EnderNote is a sleek and powerful note-taking applica
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/endernote.git
+git clone https://github.com/shaaanuu/endernote.git
 cd endernote
 ```
 
@@ -71,4 +71,4 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 ## Acknowledgements
 
 - Inspired by [Obsidian](https://obsidian.md/).
-- Powered by [React](https://react.dev/) and [Vite](https://vitejs.dev/).
+- Powered by [React](https://react.dev/) and [Next](https://nextjs.org/).

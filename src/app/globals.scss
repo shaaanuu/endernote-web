@@ -1,0 +1,165 @@
+body {
+  font-family: "Mont Regular";
+  background-color: #121414;
+  color: #f8f9fa;
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+// NavBar
+@font-face {
+  font-family: "Mont Black";
+  src: url("/fonts/Montserrat-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mont Bold";
+  src: url("/fonts/Montserrat-Bold.ttf");
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    img {
+      max-height: 40px;
+      margin-right: 10px;
+      border-radius: 5px;
+    }
+
+    .name {
+      font-family: "Mont Black";
+      font-size: 18px;
+      font-weight: bold;
+      color: #902686;
+    }
+  }
+
+  .accountInfo {
+    font-family: "Mont Bold";
+    display: flex;
+    align-items: center;
+    :hover {
+      color: #902686;
+    }
+
+    .login,
+    .signup {
+      margin-left: 20px;
+      cursor: pointer;
+    }
+  }
+}
+
+// definition component
+@font-face {
+  font-family: "Mont Semi Bold";
+  src: url("/fonts/Montserrat-SemiBold.ttf");
+}
+
+.definition {
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  margin-inline: 50px;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  dt {
+    font-family: "Mont Semi Bold";
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  dd {
+    margin: 0;
+    margin-bottom: 10px;
+    --tw-text-opacity: 1;
+    color: rgb(163 163 163 / var(--tw-text-opacity));
+  }
+}
+
+// hero section
+@font-face {
+  font-family: "Mont Regular";
+  src: url("/fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "Mont Bold";
+  src: url("/fonts/Montserrat-Bold.ttf");
+}
+
+.heroTitleSec {
+  max-width: 42rem;
+  padding-top: 7.45rem;
+  padding-left: 2.5rem;
+
+  .heroTitle {
+    font-family: "Mont Bold";
+    margin-block: 2rem;
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+    letter-spacing: -0.05em;
+    font-weight: 100;
+  }
+
+  .heroPara {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    opacity: 0.7;
+    margin-bottom: 1.5rem;
+    padding-bottom: 8rem;
+  }
+  @media screen and (max-width: 600px) {
+    .heroTitle {
+      font-size: 2.5rem;
+      margin-block: 1rem;
+    }
+    .heroPara {
+      font-size: 1.5rem;
+      margin-bottom: 0;
+      padding-bottom: 8rem;
+    }
+  }
+}
+
+.heroScreenshot img {
+  max-width: 90%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// footer
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+  }
+}

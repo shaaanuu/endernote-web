@@ -1,5 +1,3 @@
-import "./navbar.scss";
-
 export const Navbar = () => {
   return (
     <nav className="navbar">
@@ -9,7 +7,7 @@ export const Navbar = () => {
           <div className="name">Endernote</div>
         </div>
       </a>
-      <div className="account-info">
+      <div className="accountInfo">
         <a className="login" href="#">
           Login
         </a>

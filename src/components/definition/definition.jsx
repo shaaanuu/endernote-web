@@ -1,5 +1,3 @@
-import "./definition.scss";
-
 export const Definition = ({ title, description }) => {
   return (
     <dl className="definition">
