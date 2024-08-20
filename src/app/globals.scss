@@ -41,18 +41,10 @@ body {
     }
   }
 
-  .accountInfo {
+  .get-app {
     font-family: "Mont Bold";
-    display: flex;
-    align-items: center;
     :hover {
       color: #902686;
-    }
-
-    .login,
-    .signup {
-      margin-left: 20px;
-      cursor: pointer;
     }
   }
 }
