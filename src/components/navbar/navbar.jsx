@@ -10,10 +10,10 @@ export const Navbar = () => {
         </div>
       </a>
       <div className="account-info">
-        <a className="login" href="/app">
+        <a className="login" href="#">
           Login
         </a>
-        <a className="signup" href="/app">
+        <a className="signup" href="#">
           Sign Up
         </a>
       </div>
